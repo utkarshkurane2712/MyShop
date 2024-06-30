@@ -1,0 +1,120 @@
+
+.form-container{
+    position: absolute;
+    height: 563px;
+    width: 600px;
+    top: 100px;
+    left: 450px;
+    background-color: #fed7fe;
+}
+
+.login{
+    position: absolute;
+    height: 200px;
+    width: 290px;
+    left: 310px;
+    top: 160px;
+    text-align: center;
+
+}
+
+.txt-field{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 10px 0;
+}
+
+.txt-field input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.pass{
+    margin: -5px 0 20px 5px;
+    color:  #2691d9;
+    cursor: pointer;
+    position: absolute;
+    top: 135px;
+    left: 70px;
+    text-decoration: none;
+    
+}
+
+.pass:hover{
+    text-decoration: underline;
+}
+
+.submit{
+    width: 90%;
+    height: 50px;
+    position: absolute;
+    top: 175px;
+    left: 15px;
+    border: 1px solid;
+    background: #adadad;
+    border-radius: 25px;
+    font-size: 18px;
+    color: black;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+}
+
+.submit:hover{
+    background-color: #433e3e;
+    transition: .5s;
+}
+
+.signup-link{
+    margin: 30px 0;
+    position: absolute;
+    top: 215px;
+    left: 70px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.signup-link a{
+    color: #2691d9;
+    text-decoration: none;
+}
+
+.signup-link a:hover{
+    text-decoration: underline;
+}
+
+.one-container {
+    background-color: #ffffff;
+    padding: 30px;
+	border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.one-h1 {
+    color: #333;
+	margin-bottom: 20px;
+}
+
+.one-a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #007bff;
+    color: #fff;
+	border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.one-a:hover {
+    background-color: #0056b3;
+}
+
+
+
